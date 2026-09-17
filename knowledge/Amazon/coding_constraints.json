@@ -1,0 +1,105 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "supported_languages": [
+    "Java",
+    "C++",
+    "Python",
+    "C",
+    "JavaScript"
+  ],
+
+  "preferred_languages": [
+    "Java",
+    "C++",
+    "Python"
+  ],
+
+  "minimum_coding_questions": 2,
+  "maximum_coding_questions": 3,
+
+  "difficulty_distribution": {
+    "Easy": 15,
+    "Medium": 55,
+    "Hard": 30
+  },
+
+  "time_limit_per_question_minutes": {
+    "Easy": 15,
+    "Medium": 25,
+    "Hard": 40
+  },
+
+  "memory_limit_mb": 256,
+  "time_limit_seconds": 2,
+
+  "allow_multiple_correct_solutions": true,
+  "require_optimal_solution": true,
+  "require_time_complexity": true,
+  "require_space_complexity": true,
+
+  "accepted_complexities": {
+    "Easy": [
+      "O(n)",
+      "O(log n)"
+    ],
+    "Medium": [
+      "O(n)",
+      "O(n log n)"
+    ],
+    "Hard": [
+      "O(n log n)",
+      "O(n)",
+      "O(V+E)"
+    ]
+  },
+
+  "question_requirements": {
+    "include_problem_statement": true,
+    "include_constraints": true,
+    "include_input_format": true,
+    "include_output_format": true,
+    "include_sample_input": true,
+    "include_sample_output": true,
+    "include_explanation": true,
+    "include_hidden_test_cases": false
+  },
+
+  "validation_rules": {
+    "no_duplicate_questions": true,
+    "correct_solution_required": true,
+    "valid_examples_required": true,
+    "edge_cases_required": true,
+    "constraints_must_match_solution": true
+  },
+
+  "coding_focus": [
+    "Arrays",
+    "Strings",
+    "Hash Maps",
+    "Sliding Window",
+    "Two Pointers",
+    "Binary Search",
+    "Trees",
+    "Graphs",
+    "Dynamic Programming",
+    "Heap",
+    "Greedy Algorithms"
+  ],
+
+  "prohibited_question_types": [
+    "Language syntax questions",
+    "Pure theory questions",
+    "Compiler output prediction",
+    "Duplicate problems",
+    "Ambiguous questions"
+  ],
+
+  "evaluation": {
+    "correctness": 60,
+    "time_complexity": 20,
+    "space_complexity": 10,
+    "code_quality": 10
+  }
+}

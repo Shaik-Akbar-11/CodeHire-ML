@@ -1,0 +1,10 @@
+{
+  "company": "Mastercard",
+  "short_name": "Mastercard",
+  "role": "Software Engineer",
+  "industry": "BFSI",
+  "overall_difficulty": "Medium-Hard",
+  "question_style": "Scenario Based",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

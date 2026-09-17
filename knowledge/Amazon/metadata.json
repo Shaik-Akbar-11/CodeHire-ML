@@ -1,0 +1,74 @@
+{
+  "company": "Amazon",
+  "version": "1.0.0",
+  "knowledge_base": "Amazon Recruitment Knowledge Base",
+
+  "description": "Knowledge base for generating Amazon-style online assessments, coding challenges, interview questions, and ML training datasets.",
+
+  "created_by": "CodeHiring AI Dataset Engine",
+  "organization": "CodeHiring",
+
+  "created_date": "2026-07-19",
+  "last_updated": "2026-07-19",
+
+  "supported_roles": [
+    "Software Development Engineer I",
+    "Software Development Engineer II",
+    "Data Engineer",
+    "Machine Learning Engineer",
+    "Cloud Support Associate",
+    "Quality Assurance Engineer"
+  ],
+
+  "supported_sections": [
+    "Coding",
+    "Quantitative Aptitude",
+    "Logical Reasoning",
+    "Verbal Ability",
+    "Behavioral Interview",
+    "Computer Science Fundamentals"
+  ],
+
+  "supported_difficulties": [
+    "Easy",
+    "Easy-Medium",
+    "Medium",
+    "Medium-Hard",
+    "Hard"
+  ],
+
+  "supported_question_types": [
+    "MCQ",
+    "Coding",
+    "Scenario Based",
+    "Case Study",
+    "Behavioral",
+    "Conceptual"
+  ],
+
+  "language": "English",
+
+  "dataset_format": "CSV",
+  "knowledge_format": "JSON",
+
+  "encoding": "UTF-8",
+
+  "generator": {
+    "engine": "CodeHiring Dataset Generator",
+    "llm": "Groq",
+    "validation": "AI Reviewer"
+  },
+
+  "quality_checks": {
+    "duplicate_detection": true,
+    "answer_validation": true,
+    "difficulty_validation": true,
+    "topic_validation": true,
+    "grammar_validation": true,
+    "explanation_validation": true
+  },
+
+  "status": "Production Ready",
+
+  "license": "Internal Use Only"
+}

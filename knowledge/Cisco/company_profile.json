@@ -1,0 +1,10 @@
+{
+  "company": "Cisco",
+  "short_name": "Cisco",
+  "role": "Network Engineer",
+  "industry": "Product",
+  "overall_difficulty": "Medium",
+  "question_style": "Scenario Based",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

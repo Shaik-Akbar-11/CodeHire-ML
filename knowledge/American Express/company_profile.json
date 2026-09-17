@@ -1,0 +1,10 @@
+{
+  "company": "American Express",
+  "short_name": "American Express",
+  "role": "Analyst",
+  "industry": "BFSI",
+  "overall_difficulty": "Medium",
+  "question_style": "Scenario Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

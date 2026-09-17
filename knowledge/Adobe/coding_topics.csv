@@ -1,0 +1,21 @@
+topic,priority,difficulty,weight
+Arrays,Very High,Medium,10
+Strings,Very High,Medium,10
+Hash Maps,High,Medium,9
+Linked List,High,Medium,9
+Stack,High,Medium,8
+Queue,High,Medium,8
+Trees,Very High,Medium-Hard,10
+Binary Search Trees,High,Medium-Hard,9
+Graphs,High,Medium-Hard,9
+Heap,Medium,Medium,7
+Binary Search,High,Medium,9
+Sliding Window,High,Medium,8
+Two Pointers,High,Medium,8
+Recursion,High,Medium,8
+Backtracking,Medium,Hard,7
+Dynamic Programming,High,Hard,9
+Greedy Algorithms,Medium,Medium-Hard,7
+Bit Manipulation,Medium,Medium,6
+Object Oriented Programming,Very High,Medium,10
+SQL,High,Medium,8

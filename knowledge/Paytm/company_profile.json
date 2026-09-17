@@ -1,0 +1,10 @@
+{
+  "company": "Paytm",
+  "short_name": "Paytm",
+  "role": "Software Engineer",
+  "industry": "Startup",
+  "overall_difficulty": "Medium",
+  "question_style": "Scenario Based",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

@@ -1,0 +1,78 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "question_generation": {
+    "minimum_options": 4,
+    "maximum_options": 4,
+    "single_correct_answer": true,
+    "allow_negative_marking": false,
+    "allow_multiple_correct_answers": false,
+    "shuffle_options": true
+  },
+
+  "difficulty_constraints": {
+    "Easy": {
+      "percentage": 20,
+      "max_time_seconds": 60
+    },
+    "Medium": {
+      "percentage": 50,
+      "max_time_seconds": 120
+    },
+    "Hard": {
+      "percentage": 30,
+      "max_time_seconds": 180
+    }
+  },
+
+  "content_constraints": {
+    "no_duplicate_questions": true,
+    "no_ambiguous_questions": true,
+    "no_company_confidential_information": true,
+    "no_trick_questions": true,
+    "realistic_scenarios_only": true,
+    "language": "English",
+    "grammar_must_be_correct": true
+  },
+
+  "coding_constraints": {
+    "require_optimal_solution": true,
+    "require_time_complexity": true,
+    "require_space_complexity": true,
+    "require_edge_case_handling": true,
+    "require_sample_input_output": true,
+    "allow_multiple_languages": true
+  },
+
+  "aptitude_constraints": {
+    "calculations_must_be_correct": true,
+    "single_numeric_answer": true,
+    "realistic_values": true
+  },
+
+  "logical_constraints": {
+    "single_logical_solution": true,
+    "avoid_subjective_reasoning": true
+  },
+
+  "verbal_constraints": {
+    "grammatically_correct": true,
+    "single_best_answer": true,
+    "avoid_outdated_vocabulary": true
+  },
+
+  "validation_constraints": {
+    "answer_must_match_explanation": true,
+    "options_must_be_unique": true,
+    "question_must_match_topic": true,
+    "question_must_match_difficulty": true,
+    "minimum_explanation_length": 40
+  },
+
+  "export_constraints": {
+    "format": "CSV",
+    "encoding": "UTF-8",
+    "include_headers": true
+  }
+}

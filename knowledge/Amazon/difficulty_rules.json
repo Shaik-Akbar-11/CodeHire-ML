@@ -1,0 +1,90 @@
+{
+  "Easy": {
+    "expectedThinkingLevel": "Basic comprehension and direct application of a single concept.",
+    "averageSolvingTime": 90,
+    "formulaUsage": "One simple formula or definition is sufficient.",
+    "reasoningDepth": "Low",
+    "calculationComplexity": "Simple arithmetic, basic algebra, or direct evaluation.",
+    "logicalComplexity": "Straightforward relationships with no nested conditions.",
+    "readingComplexity": "Simple",
+    "numberOfSteps": 1,
+
+    "expectedAccuracy": 90,
+    "maximumConcepts": 1,
+
+    "allowedDistractorQuality": "Simple",
+    "realWorldScenario": false,
+
+    "commonMistakes": [
+      "Minor arithmetic mistakes",
+      "Ignoring a simple condition",
+      "Reading the question too quickly"
+    ],
+
+    "difficultyIndicators": [
+      "Single concept",
+      "Direct formula",
+      "Straightforward computation"
+    ]
+  },
+
+  "Medium": {
+    "expectedThinkingLevel": "Application and analysis of multiple related concepts.",
+    "averageSolvingTime": 120,
+    "formulaUsage": "Requires combining concepts or multiple formulas.",
+    "reasoningDepth": "Medium",
+    "calculationComplexity": "Moderate",
+    "logicalComplexity": "Conditional reasoning",
+    "readingComplexity": "Moderate",
+    "numberOfSteps": 2,
+
+    "expectedAccuracy": 70,
+    "maximumConcepts": 2,
+
+    "allowedDistractorQuality": "Moderate",
+    "realWorldScenario": true,
+
+    "commonMistakes": [
+      "Incorrect formula selection",
+      "Skipping intermediate steps",
+      "Misinterpreting conditions"
+    ],
+
+    "difficultyIndicators": [
+      "Multiple concepts",
+      "Intermediate reasoning",
+      "Requires interpretation"
+    ]
+  },
+
+  "Hard": {
+    "expectedThinkingLevel": "Deep analysis, synthesis, and optimization.",
+    "averageSolvingTime": 180,
+    "formulaUsage": "Multiple formulas or advanced derivations.",
+    "reasoningDepth": "High",
+    "calculationComplexity": "Complex",
+    "logicalComplexity": "Nested conditions",
+    "readingComplexity": "Complex",
+    "numberOfSteps": 3,
+
+    "expectedAccuracy": 40,
+    "maximumConcepts": 4,
+
+    "allowedDistractorQuality": "Highly Plausible",
+    "realWorldScenario": true,
+
+    "commonMistakes": [
+      "Missing edge cases",
+      "Incorrect optimization",
+      "Wrong logical assumptions",
+      "Calculation mistakes in intermediate steps"
+    ],
+
+    "difficultyIndicators": [
+      "Multi-layer reasoning",
+      "Optimization required",
+      "Complex constraints",
+      "Multiple interacting concepts"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "preferred_programming_languages": [
+    "Java",
+    "C++",
+    "Python"
+  ],
+
+  "preferred_problem_solving_style": [
+    "Optimal Algorithms",
+    "Efficient Data Structures",
+    "Clean Code",
+    "Scalable Solutions"
+  ],
+
+  "preferred_data_structures": [
+    "Arrays",
+    "Strings",
+    "Hash Maps",
+    "Trees",
+    "Graphs",
+    "Heaps",
+    "Stacks",
+    "Queues",
+    "Linked Lists"
+  ],
+
+  "preferred_algorithm_topics": [
+    "Sliding Window",
+    "Two Pointers",
+    "Binary Search",
+    "Greedy Algorithms",
+    "Dynamic Programming",
+    "Backtracking",
+    "Graph Algorithms",
+    "Recursion"
+  ],
+
+  "preferred_cs_subjects": [
+    "Operating Systems",
+    "DBMS",
+    "Computer Networks",
+    "Object Oriented Programming",
+    "SQL"
+  ],
+
+  "preferred_candidate_traits": [
+    "Customer Obsession",
+    "Ownership",
+    "Bias for Action",
+    "Learn and Be Curious",
+    "Dive Deep",
+    "Invent and Simplify",
+    "Deliver Results",
+    "High Standards",
+    "Strong Communication",
+    "Analytical Thinking"
+  ],
+
+  "preferred_project_types": [
+    "Full Stack Applications",
+    "Cloud Applications",
+    "Distributed Systems",
+    "Machine Learning",
+    "AI Applications",
+    "Open Source Contributions"
+  ],
+
+  "resume_preferences": {
+    "projects": "Very High",
+    "internships": "High",
+    "coding_profiles": "High",
+    "github": "High",
+    "certifications": "Medium",
+    "cgpa": "Medium"
+  },
+
+  "coding_preferences": {
+    "time_complexity": "Optimal",
+    "space_complexity": "Optimized",
+    "edge_case_handling": true,
+    "clean_code": true,
+    "modular_code": true,
+    "comments_required": false
+  },
+
+  "interview_preferences": {
+    "behavioral_round": true,
+    "leadership_principles": true,
+    "system_design": false,
+    "project_discussion": true,
+    "coding_explanation": true,
+    "optimization_discussion": true
+  },
+
+  "evaluation_priority": {
+    "problem_solving": 35,
+    "coding": 30,
+    "behavioral": 15,
+    "computer_science": 10,
+    "communication": 10
+  }
+}

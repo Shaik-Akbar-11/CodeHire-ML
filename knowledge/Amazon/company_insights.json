@@ -1,0 +1,145 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "overall_hiring_focus": {
+    "problem_solving": "Very High",
+    "data_structures_algorithms": "Very High",
+    "coding_speed": "High",
+    "code_quality": "High",
+    "system_design": "Medium",
+    "behavioral_skills": "Very High",
+    "communication": "High"
+  },
+
+  "leadership_principles": [
+    "Customer Obsession",
+    "Ownership",
+    "Invent and Simplify",
+    "Are Right, A Lot",
+    "Learn and Be Curious",
+    "Hire and Develop the Best",
+    "Insist on the Highest Standards",
+    "Think Big",
+    "Bias for Action",
+    "Frugality",
+    "Earn Trust",
+    "Dive Deep",
+    "Have Backbone; Disagree and Commit",
+    "Deliver Results"
+  ],
+
+  "coding_focus": [
+    "Arrays",
+    "Strings",
+    "Hash Maps",
+    "Sliding Window",
+    "Two Pointers",
+    "Binary Search",
+    "Trees",
+    "Binary Search Trees",
+    "Graphs",
+    "Heap",
+    "Priority Queue",
+    "Dynamic Programming",
+    "Greedy Algorithms"
+  ],
+
+  "aptitude_focus": [
+    "Probability",
+    "Data Interpretation",
+    "Percentages",
+    "Ratio and Proportion",
+    "Time and Work",
+    "Profit and Loss"
+  ],
+
+  "logical_focus": [
+    "Logical Puzzles",
+    "Analytical Reasoning",
+    "Data Sufficiency",
+    "Seating Arrangement",
+    "Coding-Decoding"
+  ],
+
+  "verbal_focus": [
+    "Reading Comprehension",
+    "Sentence Correction",
+    "Vocabulary",
+    "Grammar",
+    "Para Jumbles"
+  ],
+
+  "core_computer_science_topics": [
+    "Operating Systems",
+    "DBMS",
+    "Object Oriented Programming",
+    "Computer Networks",
+    "SQL",
+    "Concurrency",
+    "REST APIs"
+  ],
+
+  "interview_characteristics": {
+    "coding_questions": "Real-world problem solving",
+    "follow_up_questions": true,
+    "edge_cases": true,
+    "time_complexity_discussion": true,
+    "space_complexity_discussion": true,
+    "multiple_solutions_expected": true,
+    "clean_code_expected": true
+  },
+
+  "behavioral_interview": {
+    "uses_star_method": true,
+    "leadership_principles_based": true,
+    "project_deep_dive": true,
+    "ownership_questions": true,
+    "conflict_resolution_questions": true
+  },
+
+  "difficulty_trend": {
+    "aptitude": "Medium",
+    "logical": "Medium",
+    "coding": "Medium-Hard",
+    "interview": "Hard"
+  },
+
+  "recent_hiring_trends": {
+    "2024": [
+      "More graph-based coding problems",
+      "Greater emphasis on problem-solving speed",
+      "Leadership Principles strongly emphasized"
+    ],
+    "2025": [
+      "More medium-hard DSA questions",
+      "More real-world coding scenarios",
+      "Behavioral interviews became more structured"
+    ],
+    "2026": [
+      "Focus on optimization",
+      "System design discussions increased for experienced roles",
+      "Projects and practical experience gained more importance"
+    ]
+  },
+
+  "recommended_preparation_order": [
+    "Arrays",
+    "Strings",
+    "Hash Maps",
+    "Sliding Window",
+    "Trees",
+    "Graphs",
+    "Dynamic Programming",
+    "Leadership Principles",
+    "Mock Interviews"
+  ],
+
+  "ml_training_priority": {
+    "coding": 40,
+    "aptitude": 20,
+    "logical": 15,
+    "verbal": 10,
+    "behavioral": 15
+  }
+}

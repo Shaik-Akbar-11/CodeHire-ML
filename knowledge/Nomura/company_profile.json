@@ -1,0 +1,10 @@
+{
+  "company": "Nomura",
+  "short_name": "Nomura",
+  "role": "Analyst",
+  "industry": "BFSI",
+  "overall_difficulty": "Hard",
+  "question_style": "Analytical",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

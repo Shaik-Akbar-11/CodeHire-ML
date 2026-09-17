@@ -1,0 +1,10 @@
+{
+  "company": "Amazon",
+  "short_name": "Amazon",
+  "role": "Software Development Engineer",
+  "industry": "Product",
+  "overall_difficulty": "Medium-Hard",
+  "question_style": "Scenario Based",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

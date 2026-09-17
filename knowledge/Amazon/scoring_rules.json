@@ -1,0 +1,87 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "overall_scoring": {
+    "total_score": 100,
+    "passing_score": 70,
+    "negative_marking": false,
+    "sectional_cutoff": false,
+    "overall_cutoff": true
+  },
+
+  "section_weights": {
+    "coding": 50,
+    "quantitative": 20,
+    "logical": 15,
+    "verbal": 15
+  },
+
+  "coding_evaluation": {
+    "correctness": 50,
+    "time_complexity": 20,
+    "space_complexity": 10,
+    "edge_case_handling": 10,
+    "code_quality": 5,
+    "readability": 5
+  },
+
+  "mcq_evaluation": {
+    "correct_answer": 100,
+    "partial_marks": false,
+    "negative_marking": false
+  },
+
+  "behavioral_evaluation": {
+    "leadership_principles": 40,
+    "problem_solving": 20,
+    "communication": 15,
+    "ownership": 15,
+    "customer_obsession": 10
+  },
+
+  "difficulty_bonus": {
+    "Easy": 1.0,
+    "Easy-Medium": 1.1,
+    "Medium": 1.25,
+    "Medium-Hard": 1.4,
+    "Hard": 1.6
+  },
+
+  "reviewer_validation": {
+    "math_accuracy": true,
+    "logical_consistency": true,
+    "grammar_check": true,
+    "duplicate_detection": true,
+    "difficulty_validation": true,
+    "topic_validation": true,
+    "answer_validation": true,
+    "explanation_validation": true
+  },
+
+  "grading_levels": {
+    "Excellent": {
+      "min_score": 90,
+      "max_score": 100
+    },
+    "Good": {
+      "min_score": 80,
+      "max_score": 89
+    },
+    "Average": {
+      "min_score": 70,
+      "max_score": 79
+    },
+    "Needs Improvement": {
+      "min_score": 0,
+      "max_score": 69
+    }
+  },
+
+  "selection_recommendation": {
+    "Strong Hire": 90,
+    "Hire": 80,
+    "Borderline": 70,
+    "Reject": 0
+  }
+}

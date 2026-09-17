@@ -1,0 +1,10 @@
+{
+  "company": "ThoughtWorks",
+  "short_name": "ThoughtWorks",
+  "role": "Application Developer",
+  "industry": "Product",
+  "overall_difficulty": "Medium",
+  "question_style": "Scenario Based",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

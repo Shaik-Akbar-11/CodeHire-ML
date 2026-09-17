@@ -1,0 +1,10 @@
+{
+  "company": "HSBC",
+  "short_name": "HSBC",
+  "role": "Analyst",
+  "industry": "BFSI",
+  "overall_difficulty": "Medium",
+  "question_style": "Practical",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

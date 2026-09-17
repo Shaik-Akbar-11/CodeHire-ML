@@ -1,0 +1,10 @@
+{
+  "company": "Boston Consulting Group",
+  "short_name": "BCG",
+  "role": "Associate",
+  "industry": "Consulting",
+  "overall_difficulty": "Hard",
+  "question_style": "Case Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

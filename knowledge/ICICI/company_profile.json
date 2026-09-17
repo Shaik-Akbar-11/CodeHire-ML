@@ -1,0 +1,10 @@
+{
+  "company": "ICICI Bank",
+  "short_name": "ICICI",
+  "role": "IT Officer",
+  "industry": "BFSI",
+  "overall_difficulty": "Medium",
+  "question_style": "Practical",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "company": "LatentView Analytics",
+  "short_name": "LatentView",
+  "role": "Analyst",
+  "industry": "Consulting",
+  "overall_difficulty": "Medium",
+  "question_style": "Analytical",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "company": "KPMG",
+  "short_name": "KPMG",
+  "role": "Associate",
+  "industry": "Consulting",
+  "overall_difficulty": "Medium",
+  "question_style": "Case Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "company": "JP Morgan Chase",
+  "short_name": "JP Morgan",
+  "role": "Software Engineer",
+  "industry": "BFSI",
+  "overall_difficulty": "Medium-Hard",
+  "question_style": "Analytical",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "company": "Ernst and Young",
+  "short_name": "EY",
+  "role": "Associate",
+  "industry": "Consulting",
+  "overall_difficulty": "Medium",
+  "question_style": "Case Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

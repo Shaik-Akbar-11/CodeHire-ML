@@ -1,0 +1,10 @@
+{
+  "company": "Capgemini",
+  "short_name": "Capgemini",
+  "role": "Analyst",
+  "industry": "IT Services",
+  "overall_difficulty": "Easy-Medium",
+  "question_style": "Scenario Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

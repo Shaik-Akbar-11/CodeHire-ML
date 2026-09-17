@@ -1,0 +1,10 @@
+{
+  "company": "Deutsche Bank",
+  "short_name": "Deutsche Bank",
+  "role": "Analyst",
+  "industry": "BFSI",
+  "overall_difficulty": "Medium-Hard",
+  "question_style": "Analytical",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "company": "Oliver Wyman",
+  "short_name": "Oliver Wyman",
+  "role": "Analyst",
+  "industry": "Consulting",
+  "overall_difficulty": "Hard",
+  "question_style": "Case Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

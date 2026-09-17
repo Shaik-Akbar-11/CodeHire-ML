@@ -1,0 +1,47 @@
+{
+  "hallucinationDetection": [
+    "Reject questions containing fabricated facts, APIs, algorithms, or mathematical formulas.",
+    "Ensure all technical concepts conform to standard textbooks and official documentation.",
+    "Reject unsupported claims or invented terminology."
+  ],
+
+  "codingValidation": [
+    "Compile reference solutions successfully.",
+    "Validate outputs using hidden and sample test cases.",
+    "Verify time and space complexity against expected constraints.",
+    "Ensure constraints are achievable within the specified limits."
+  ],
+
+  "consistencyValidation": [
+    "Ensure the question, options, answer, explanation, and metadata describe the same problem.",
+    "Verify that variable names remain consistent throughout the question.",
+    "Ensure units and notation are used consistently."
+  ],
+
+  "biasValidation": [
+    "Reject questions containing cultural, political, religious, or demographic bias.",
+    "Use neutral names and contexts.",
+    "Avoid company-internal or proprietary references."
+  ],
+
+  "readabilityValidation": [
+    "Measure readability using standard metrics.",
+    "Avoid unnecessarily complex sentence structures.",
+    "Ensure wording is suitable for the target candidate level."
+  ],
+
+  "metadataValidation": [
+    "Verify company field.",
+    "Verify section field.",
+    "Verify topic field.",
+    "Verify difficulty field.",
+    "Verify UUID.",
+    "Verify generation timestamp."
+  ],
+
+  "reviewDecision": {
+    "Accept": 90,
+    "Needs Review": 75,
+    "Reject": 0
+  }
+}

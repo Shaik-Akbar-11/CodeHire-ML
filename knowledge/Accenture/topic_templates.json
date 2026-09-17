@@ -1,0 +1,146 @@
+{
+  "Probability": {
+    "problemStructure": "Define an event space and request the probability of a specified event or combination of events.",
+    "variables": ["totalOutcomes", "favorableOutcomes", "eventA", "eventB"],
+    "constraints": ["all probabilities between 0 and 1", "events are mutually exclusive or independent as stated"],
+    "difficultyParameters": {"Easy": "single event probability", "Medium": "conditional or combined events", "Hard": "dependent events or complement computation"},
+    "randomizableFields": ["population size", "number of favorable outcomes", "event descriptions"],
+    "answerValidationLogic": "Validate using ratio of favorable outcomes to total outcomes or conditional probability formula as defined.",
+    "explanationStructure": "State the event definition, identify the correct probability formula, compute each component, and simplify to the final result."
+  },
+  "Percentages": {
+    "problemStructure": "Present a quantity and ask for percent change, proportion, or value after application of a percentage-based operation.",
+    "variables": ["baseValue", "percentageRate", "resultValue"],
+    "constraints": ["rates between 0 and 100%", "quantities are positive unless negative values are explicitly allowed"],
+    "difficultyParameters": {"Easy": "single percentage conversion", "Medium": "sequential percentage changes", "Hard": "reverse percentage or multi-step mixture with percentages"},
+    "randomizableFields": ["base value", "percentage rate", "number of sequential operations"],
+    "answerValidationLogic": "Validate using direct percentage formulas or successive multiplication for sequential changes.",
+    "explanationStructure": "Translate the percentage statement, perform the conversion, calculate the result, and verify the final value."
+  },
+  "Profit & Loss": {
+    "problemStructure": "Provide cost and selling price details and ask for profit, loss, margin, or markup percentage.",
+    "variables": ["costPrice", "sellingPrice", "profit", "loss", "marginPercentage"],
+    "constraints": ["cost price positive", "selling price positive", "profit or loss computed from difference"],
+    "difficultyParameters": {"Easy": "single profit or loss calculation", "Medium": "percentage-based profit or loss", "Hard": "compound or weighted cost scenarios"},
+    "randomizableFields": ["cost value", "selling price", "profit or loss percentage"],
+    "answerValidationLogic": "Validate using standard profit and loss formulas and percentage definitions.",
+    "explanationStructure": "Define the relationship between cost and selling price, compute the difference, and convert to the requested percentage if needed."
+  },
+  "Time & Work": {
+    "problemStructure": "Define workers, individual rates, and total work, then ask for time, workforce size, or work rate.",
+    "variables": ["workerRate", "totalWork", "time", "numberOfWorkers"],
+    "constraints": ["rates are additive for identical workers", "work is constant across scenarios"],
+    "difficultyParameters": {"Easy": "single worker rate or time", "Medium": "multiple worker combinations", "Hard": "mixed workforce or efficiency differences"},
+    "randomizableFields": ["worker rate", "work amount", "number of workers"],
+    "answerValidationLogic": "Validate using work = rate × time and additive rate principles for multiple workers.",
+    "explanationStructure": "State the work-rate relationship, compute equivalent rate or time, and derive the requested quantity."
+  },
+  "Time & Distance": {
+    "problemStructure": "Provide distances, speeds, or times and ask for average speed, relative motion, or travel time.",
+    "variables": ["distance", "speed", "time", "relativeSpeed"],
+    "constraints": ["time positive", "speed positive", "distance nonnegative"],
+    "difficultyParameters": {"Easy": "single speed or time calculation", "Medium": "average speed or multiple segments", "Hard": "relative motion or combined travel conditions"},
+    "randomizableFields": ["distance values", "speed values", "travel segments"],
+    "answerValidationLogic": "Validate using speed = distance / time and average speed formulas for composite trips.",
+    "explanationStructure": "Identify the applicable speed formula, calculate each segment if needed, and present the final value."
+  },
+  "Ratio & Proportion": {
+    "problemStructure": "Describe two or more quantities in ratio form and ask for scaled values or combined totals.",
+    "variables": ["ratioA", "ratioB", "commonMultiplier", "combinedTotal"],
+    "constraints": ["ratio terms positive", "proportions preserve relative sizes"],
+    "difficultyParameters": {"Easy": "simple ratio scaling", "Medium": "mixtures or multiple ratios", "Hard": "compound ratios or reverse proportion"},
+    "randomizableFields": ["ratio terms", "total quantity", "scaling multiplier"],
+    "answerValidationLogic": "Validate by converting ratios to equivalent quantities using the common multiplier or total value.",
+    "explanationStructure": "Translate the ratio relationships, determine the multiplier from the total if needed, and compute the requested quantities."
+  },
+  "Number System": {
+    "problemStructure": "Use integers, fractions, or decimals to ask for arithmetic, divisibility, or value conversion results.",
+    "variables": ["integerValue", "fractionValue", "decimalValue", "result"],
+    "constraints": ["values remain within manageable numeric ranges", "denominators nonzero"],
+    "difficultyParameters": {"Easy": "basic integer or fraction operations", "Medium": "mixed number operations or divisibility", "Hard": "number property reasoning or multi-step manipulation"},
+    "randomizableFields": ["numeric operands", "operation types", "value signs"],
+    "answerValidationLogic": "Validate using standard number operations and number property definitions.",
+    "explanationStructure": "Specify the arithmetic operation, carry out the computation, and verify the final numeric result."
+  },
+  "Permutation & Combination": {
+    "problemStructure": "Present a counting scenario and ask for number of arrangements, selections, or combinations.",
+    "variables": ["n", "r", "arrangementType", "constraint"],
+    "constraints": ["n and r are integers with n ≥ r", "order significance defined clearly"],
+    "difficultyParameters": {"Easy": "basic permutation or combination", "Medium": "restricted arrangements or repeated elements", "Hard": "conditional selection or multi-stage counting"},
+    "randomizableFields": ["n value", "r value", "constraint types"],
+    "answerValidationLogic": "Validate using nPr or nCr formulas and restrictions as specified.",
+    "explanationStructure": "Clarify whether order matters, choose the correct counting formula, and compute the final count."
+  },
+  "Data Interpretation": {
+    "problemStructure": "Provide structured numeric data and ask for analysis of totals, averages, ratios, or trends.",
+    "variables": ["categoryValues", "timeSeriesPoints", "summaryMetric"],
+    "constraints": ["data is internally consistent", "all required values provided or inferable"],
+    "difficultyParameters": {"Easy": "simple read-off values", "Medium": "derived metrics or comparative analysis", "Hard": "multi-source synthesis or percent change evaluation"},
+    "randomizableFields": ["data values", "category labels", "analysis targets"],
+    "answerValidationLogic": "Validate using the provided dataset and the requested statistical or comparative formulas.",
+    "explanationStructure": "Identify the relevant data items, apply the analytic method, and summarize the computed result."
+  },
+  "Average": {
+    "problemStructure": "Ask for the average of a set or weighted average of different groups.",
+    "variables": ["values", "weights", "average"],
+    "constraints": ["weights nonnegative", "value set nonempty"],
+    "difficultyParameters": {"Easy": "simple mean calculation", "Medium": "weighted average", "Hard": "average with missing or derived values"},
+    "randomizableFields": ["value sets", "weight sets", "group counts"],
+    "answerValidationLogic": "Validate using arithmetic mean or weighted mean formulas as required.",
+    "explanationStructure": "Sum the relevant values or weighted contributions and divide by the total count or total weight."
+  },
+  "Mixture & Alligation": {
+    "problemStructure": "Combine components with different concentrations or values and ask for resulting mixture properties.",
+    "variables": ["componentA", "componentB", "ratio", "mixtureValue"],
+    "constraints": ["component amounts positive", "concentration percentages valid"],
+    "difficultyParameters": {"Easy": "basic ratio mixture", "Medium": "alligation formula application", "Hard": "multiple component mixtures"},
+    "randomizableFields": ["component values", "ratios", "concentration levels"],
+    "answerValidationLogic": "Validate using proportion-based mixture or alligation formulas.",
+    "explanationStructure": "Define the component relationship, apply the mixture principle, and compute the resulting value."
+  },
+  "Simple Interest": {
+    "problemStructure": "Provide principal, rate, and time; ask for interest or final amount.",
+    "variables": ["principal", "rate", "time", "interest"],
+    "constraints": ["rate expressed as a percentage", "time expressed in consistent units"],
+    "difficultyParameters": {"Easy": "single interest calculation", "Medium": "reverse or comparative interest", "Hard": "multiple investments or effective rate comparison"},
+    "randomizableFields": ["principal", "rate", "time"],
+    "answerValidationLogic": "Validate using simple interest = principal × rate × time / 100.",
+    "explanationStructure": "State the simple interest relationship, substitute the values, and compute the result clearly."
+  },
+  "Compound Interest": {
+    "problemStructure": "Provide principal, rate, time, and compounding frequency; ask for accumulated value or interest earned.",
+    "variables": ["principal", "rate", "time", "frequency", "amount"],
+    "constraints": ["frequency is a positive integer", "rate expressed consistently"],
+    "difficultyParameters": {"Easy": "annual compounding calculation", "Medium": "non-annual frequency", "Hard": "effective rate or compound interest comparison"},
+    "randomizableFields": ["principal", "rate", "time", "frequency"],
+    "answerValidationLogic": "Validate using compound amount = principal × (1 + rate / frequency)^(frequency × time).",
+    "explanationStructure": "Define the compounding formula, compute the periodic rate and exponent, and present the accumulated amount."
+  },
+  "Boats & Streams": {
+    "problemStructure": "Define boat speed in still water and stream speed; ask for upstream, downstream, or relative speeds and travel times.",
+    "variables": ["boatSpeed", "streamSpeed", "distance", "upstreamSpeed", "downstreamSpeed"],
+    "constraints": ["boat speed greater than stream speed for realistic upstream travel", "positive distances"],
+    "difficultyParameters": {"Easy": "single upstream or downstream speed", "Medium": "time calculation for one direction", "Hard": "combined round trip or relative speed with changing conditions"},
+    "randomizableFields": ["boat speed", "stream speed", "distance"],
+    "answerValidationLogic": "Validate using downstream speed = boat speed + stream speed and upstream speed = boat speed - stream speed.",
+    "explanationStructure": "Compute the effective speed, apply the time formula if required, and state the result clearly."
+  },
+  "Logical Reasoning": {
+    "problemStructure": "Present a structured reasoning scenario and ask for a valid inference, ordering, or conclusion.",
+    "variables": ["entities", "conditions", "relationships", "outcome"],
+    "constraints": ["all conditions must be consistent", "inferences follow logically from the given statements"],
+    "difficultyParameters": {"Easy": "direct deduction", "Medium": "multi-condition inference", "Hard": "nested constraints or multiple valid combinations"},
+    "randomizableFields": ["entity labels", "constraint values", "question focus"],
+    "answerValidationLogic": "Validate by checking that the chosen inference is the only one supported by the stated conditions.",
+    "explanationStructure": "List the given constraints, apply them stepwise, and derive the valid conclusion or order."
+  },
+  "Verbal Ability": {
+    "problemStructure": "Provide a passage or sentence context and ask for comprehension, grammar, or interpretation based on language rules.",
+    "variables": ["passageTheme", "questionFocus", "grammarPoint", "targetPhrase"],
+    "constraints": ["language usage must be standard and neutral", "question focus matches the intended skill"],
+    "difficultyParameters": {"Easy": "basic vocabulary or grammar check", "Medium": "contextual interpretation or error identification", "Hard": "inference, tone, or multi-sentence coherence"},
+    "randomizableFields": ["topic context", "sentence structure", "target words"],
+    "answerValidationLogic": "Validate by applying English grammar rules, passage meaning, and logical interpretation to the response.",
+    "explanationStructure": "Explain the relevant language rule or passage inference and how it leads to the correct answer."
+  }
+}

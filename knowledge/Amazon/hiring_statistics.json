@@ -1,0 +1,91 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "hiring_frequency": "Year Round",
+
+  "roles_hired": [
+    "Software Development Engineer I",
+    "Software Development Engineer II",
+    "Data Engineer",
+    "Cloud Support Associate",
+    "Machine Learning Engineer",
+    "Quality Assurance Engineer"
+  ],
+
+  "candidate_profile": {
+    "freshers": 65,
+    "experienced": 35
+  },
+
+  "assessment_statistics": {
+    "online_assessment": {
+      "coding": 50,
+      "aptitude": 20,
+      "logical_reasoning": 15,
+      "verbal": 15
+    },
+
+    "coding_difficulty": {
+      "Easy": 20,
+      "Medium": 50,
+      "Hard": 30
+    },
+
+    "interview_focus": {
+      "data_structures_algorithms": 40,
+      "leadership_principles": 25,
+      "computer_science_fundamentals": 20,
+      "projects": 10,
+      "communication": 5
+    }
+  },
+
+  "most_frequent_topics": [
+    "Arrays",
+    "Strings",
+    "Hash Maps",
+    "Sliding Window",
+    "Binary Search",
+    "Trees",
+    "Graphs",
+    "Dynamic Programming",
+    "Probability",
+    "Data Interpretation"
+  ],
+
+  "selection_statistics": {
+    "online_assessment_to_interview": "Top Performing Candidates",
+    "technical_to_final": "Performance Based",
+    "overall_selection": "Highly Competitive"
+  },
+
+  "common_rejection_reasons": [
+    "Incorrect algorithm",
+    "Poor time complexity",
+    "Unable to explain approach",
+    "Weak Leadership Principle answers",
+    "Ignoring edge cases",
+    "Poor communication"
+  ],
+
+  "successful_candidate_traits": [
+    "Strong DSA",
+    "Problem Solving",
+    "Clean Code",
+    "Optimization Skills",
+    "Leadership Principles",
+    "Analytical Thinking",
+    "Good Communication"
+  ],
+
+  "preparation_priority": {
+    "coding": 40,
+    "behavioral": 20,
+    "computer_science": 15,
+    "aptitude": 15,
+    "logical_reasoning": 10
+  },
+
+  "last_updated": "2026"
+}

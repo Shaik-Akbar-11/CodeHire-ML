@@ -1,0 +1,10 @@
+{
+  "company": "Barclays",
+  "short_name": "Barclays",
+  "role": "Analyst",
+  "industry": "BFSI",
+  "overall_difficulty": "Medium",
+  "question_style": "Analytical",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

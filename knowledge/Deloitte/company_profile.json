@@ -1,0 +1,10 @@
+{
+  "company": "Deloitte",
+  "short_name": "Deloitte",
+  "role": "Business Technology Analyst",
+  "industry": "Consulting",
+  "overall_difficulty": "Medium",
+  "question_style": "Case Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

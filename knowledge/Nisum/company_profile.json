@@ -1,0 +1,10 @@
+{
+  "company": "Nisum",
+  "short_name": "Nisum",
+  "role": "Software Engineer",
+  "industry": "IT Services",
+  "overall_difficulty": "Medium",
+  "question_style": "Scenario Based",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

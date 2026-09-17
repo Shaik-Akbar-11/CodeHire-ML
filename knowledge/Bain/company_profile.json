@@ -1,0 +1,10 @@
+{
+  "company": "Bain and Company",
+  "short_name": "Bain",
+  "role": "Associate Consultant",
+  "industry": "Consulting",
+  "overall_difficulty": "Hard",
+  "question_style": "Case Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

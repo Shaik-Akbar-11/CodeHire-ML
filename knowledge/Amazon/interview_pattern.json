@@ -1,0 +1,130 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "interview_process": [
+    {
+      "round": 1,
+      "name": "Online Assessment",
+      "mode": "Online",
+      "duration_minutes": 120,
+      "focus": [
+        "Coding",
+        "Logical Reasoning",
+        "Quantitative Aptitude",
+        "Verbal Ability"
+      ],
+      "elimination": true
+    },
+    {
+      "round": 2,
+      "name": "Technical Interview I",
+      "mode": "Virtual",
+      "duration_minutes": 60,
+      "focus": [
+        "Data Structures",
+        "Algorithms",
+        "Problem Solving",
+        "Code Optimization"
+      ],
+      "elimination": true
+    },
+    {
+      "round": 3,
+      "name": "Technical Interview II",
+      "mode": "Virtual",
+      "duration_minutes": 60,
+      "focus": [
+        "Operating Systems",
+        "DBMS",
+        "Computer Networks",
+        "Object Oriented Programming",
+        "Projects"
+      ],
+      "elimination": true
+    },
+    {
+      "round": 4,
+      "name": "Behavioral Interview",
+      "mode": "Virtual",
+      "duration_minutes": 45,
+      "focus": [
+        "Leadership Principles",
+        "STAR Method",
+        "Communication",
+        "Ownership",
+        "Customer Obsession"
+      ],
+      "elimination": true
+    },
+    {
+      "round": 5,
+      "name": "Hiring Manager Interview",
+      "mode": "Virtual or Onsite",
+      "duration_minutes": 45,
+      "focus": [
+        "Project Discussion",
+        "Problem Solving",
+        "Behavioral Assessment",
+        "Culture Fit"
+      ],
+      "elimination": false
+    }
+  ],
+
+  "technical_topics": [
+    "Arrays",
+    "Strings",
+    "Hash Maps",
+    "Trees",
+    "Graphs",
+    "Heap",
+    "Binary Search",
+    "Sliding Window",
+    "Dynamic Programming",
+    "Greedy Algorithms"
+  ],
+
+  "core_subjects": [
+    "Operating Systems",
+    "DBMS",
+    "Computer Networks",
+    "Object Oriented Programming",
+    "SQL"
+  ],
+
+  "behavioral_focus": [
+    "Customer Obsession",
+    "Ownership",
+    "Bias for Action",
+    "Dive Deep",
+    "Invent and Simplify",
+    "Earn Trust",
+    "Deliver Results"
+  ],
+
+  "coding_expectations": {
+    "correct_solution": true,
+    "optimal_time_complexity": true,
+    "optimal_space_complexity": true,
+    "edge_case_handling": true,
+    "clean_code": true,
+    "code_explanation": true
+  },
+
+  "project_expectations": [
+    "Architecture Explanation",
+    "Technology Stack",
+    "Challenges Faced",
+    "Scalability",
+    "Personal Contribution"
+  ],
+
+  "interview_tips": [
+    "Think aloud while solving problems.",
+    "Clarify assumptions before coding.",
+    "Discuss time and space complexity.",
+    "Test your solution with edge cases.",
+    "Use the STAR method for behavioral questions."
+  ]
+}

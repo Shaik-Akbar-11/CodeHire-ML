@@ -1,0 +1,10 @@
+{
+  "company": "Honeywell",
+  "short_name": "Honeywell",
+  "role": "Engineer",
+  "industry": "Core Engineering",
+  "overall_difficulty": "Medium-Hard",
+  "question_style": "Technical",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

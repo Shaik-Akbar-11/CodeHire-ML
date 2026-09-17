@@ -1,0 +1,74 @@
+{
+  "duplicateDetection": [
+    "Compare generated prompts against existing questions using semantic similarity and topic matching.",
+    "Reject any item that is structurally equivalent to an existing question with only superficial wording changes.",
+    "Flag near-duplicates for manual review if they reuse the same core concept and parameter set.",
+    "Ensure generated items have unique identifiers and metadata for traceability."
+  ],
+  "grammar": [
+    "Validate grammar, punctuation, and sentence structure using automated language checks.",
+    "Reject items with ambiguous pronoun references or unclear clause relationships.",
+    "Ensure subject-verb agreement and consistent tense usage throughout the prompt.",
+    "Validate that numeric and symbolic expressions are presented using standard conventions."
+  ],
+  "correctMathematics": [
+    "Verify all calculations, formulas, and numeric relationships in the prompt and answer options.",
+    "Ensure the correct answer is mathematically consistent with the stated problem conditions.",
+    "Check that distractor values are computed using plausible incorrect reasoning paths.",
+    "Validate any algebraic expressions, ratios, or probability computations against standard formulas."
+  ],
+  "singleCorrectAnswer": [
+    "Confirm that exactly one option is correct for MCQs and no other option is equivalent under permitted transformations.",
+    "For open-ended problems, ensure the expected result is uniquely defined by the prompt.",
+    "Reject items with multiple valid interpretations or ambiguous answer spaces.",
+    "Verify that the correct choice is not duplicated among distractors."
+  ],
+  "difficultyAccuracy": [
+    "Compare the problem structure, step count, and reasoning demand against the declared difficulty band.",
+    "Flag items that are too simple for Medium or too complex for Easy.",
+    "Ensure Hard questions include nontrivial analysis or multi-step reasoning.",
+    "Use defined difficulty profiles to validate expected problem behavior."
+  ],
+  "topicAccuracy": [
+    "Validate that the generated prompt aligns with the intended topic taxonomy and subtopic definition.",
+    "Ensure question variables and constraints are relevant to the selected topic.",
+    "Reject items that drift into unrelated concepts or ambiguous topic boundaries.",
+    "Confirm that the prompt tests the designated skill rather than a different underlying concept."
+  ],
+  "optionQuality": [
+    "Check that all distractors are plausible and similar in style to the correct answer.",
+    "Validate that options are free from grammatical errors and formatting inconsistencies.",
+    "Ensure there are no repeated or redundant distractors within the same question.",
+    "Confirm that incorrect options reflect realistic error patterns rather than random values."
+  ],
+  "explanationQuality": [
+    "Verify that explanations clearly articulate the reasoning path from prompt to answer.",
+    "Ensure explanations reference the correct formulas and constraints used in the question.",
+    "Reject explanations that introduce new assumptions or contradict the prompt.",
+    "Confirm that explanation length is appropriate for the complexity of the problem."
+  ],
+  "timeEstimation": [
+    "Validate that the estimated solving time matches the question difficulty and step count.",
+    "Compare time estimates against the expected time rules and topic complexity.",
+    "Flag items where the declared time is significantly lower or higher than the realistic requirement.",
+    "Ensure time estimates are provided in consistent units and formats."
+  ],
+  "bloomLevel": [
+    "Validate the cognitive level assigned to each item based on the reasoning demand.",
+    "Ensure Easy items align with Remember or Understand levels.",
+    "Ensure Medium items align with Apply or Analyze levels.",
+    "Ensure Hard items align with Evaluate or Create levels when applicable."
+  ],
+  "learningObjective": [
+    "Confirm that each generated item is tagged with a clear, relevant learning objective.",
+    "Validate that the prompt supports the stated objective and skill outcome.",
+    "Ensure learning objectives are specific enough for adaptive remediation and recommendation engines.",
+    "Reject prompts with vague or mismatched objective tags."
+  ],
+  "overallScore": [
+    "Compute a holistic quality score using grammar, math correctness, difficulty fit, and topic alignment.",
+    "Use the overall score to decide whether an item is publishable, requires revision, or should be rejected.",
+    "Define threshold bands for immediate acceptance, review, and rejection.",
+    "Track score components for continuous improvement of generation rules."
+  ]
+}

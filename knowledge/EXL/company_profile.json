@@ -1,0 +1,10 @@
+{
+  "company": "EXL Service",
+  "short_name": "EXL",
+  "role": "Analyst",
+  "industry": "Consulting",
+  "overall_difficulty": "Medium",
+  "question_style": "Analytical",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

@@ -1,0 +1,66 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "sections": {
+    "quantitative": {
+      "weight": 20,
+      "questions": 8,
+      "duration_minutes": 20,
+      "priority_distribution": {
+        "Very High": 40,
+        "High": 35,
+        "Medium": 25
+      }
+    },
+
+    "logical": {
+      "weight": 20,
+      "questions": 6,
+      "duration_minutes": 15,
+      "priority_distribution": {
+        "Very High": 45,
+        "High": 30,
+        "Medium": 25
+      }
+    },
+
+    "verbal": {
+      "weight": 10,
+      "questions": 3,
+      "duration_minutes": 15,
+      "priority_distribution": {
+        "Very High": 35,
+        "High": 35,
+        "Medium": 30
+      }
+    },
+
+    "coding": {
+      "weight": 50,
+      "questions": 2,
+      "duration_minutes": 70,
+      "priority_distribution": {
+        "Very High": 50,
+        "High": 30,
+        "Medium": 20
+      }
+    }
+  },
+
+  "difficulty_distribution": {
+    "Easy": 15,
+    "Easy-Medium": 15,
+    "Medium": 40,
+    "Medium-Hard": 20,
+    "Hard": 10
+  },
+
+  "overall_assessment": {
+    "total_questions": 19,
+    "total_duration_minutes": 120,
+    "negative_marking": false,
+    "sectional_cutoff": false,
+    "overall_cutoff": true
+  }
+}

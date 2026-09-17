@@ -1,0 +1,65 @@
+{
+  "company": "Deutsche Bank",
+  "version": "1.0",
+  "question_style": "Analytical",
+  "language": "Professional English",
+  "real_world_context": true,
+  "multi_step_reasoning": true,
+  "calculator_allowed": false,
+  "difficulty": {
+    "Easy": {
+      "steps": 2,
+      "time_minutes": 2,
+      "reasoning": "Basic",
+      "complexity": "Low"
+    },
+    "Easy-Medium": {
+      "steps": 3,
+      "time_minutes": 2,
+      "reasoning": "Basic-Intermediate",
+      "complexity": "Medium"
+    },
+    "Medium": {
+      "steps": 3,
+      "time_minutes": 3,
+      "reasoning": "Intermediate",
+      "complexity": "Medium"
+    },
+    "Medium-Hard": {
+      "steps": 4,
+      "time_minutes": 4,
+      "reasoning": "Advanced",
+      "complexity": "Medium-High"
+    },
+    "Hard": {
+      "steps": 5,
+      "time_minutes": 6,
+      "reasoning": "Expert",
+      "complexity": "High"
+    }
+  },
+  "generation_rules": [
+    "Generate an original question.",
+    "Never copy questions from any source.",
+    "Question must match the requested topic.",
+    "Question must match the requested difficulty.",
+    "Question should resemble a real Deutsche Bank Online Assessment.",
+    "Use realistic numerical values.",
+    "Avoid ambiguous wording.",
+    "Avoid grammatical errors.",
+    "Generate exactly four options.",
+    "Only one option must be correct.",
+    "Distractors should be realistic.",
+    "Explanation must justify the correct answer.",
+    "Difficulty level must reflect Medium-Hard company standards."
+  ],
+  "validation_rules": [
+    "Mathematics must be correct.",
+    "Answer must match explanation.",
+    "Options must be unique.",
+    "Question must not be duplicated.",
+    "Difficulty should match requested level.",
+    "Topic should match requested topic.",
+    "Grammar must be correct."
+  ]
+}

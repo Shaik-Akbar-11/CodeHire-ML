@@ -1,0 +1,10 @@
+{
+  "company": "Nokia",
+  "short_name": "Nokia",
+  "role": "Software Engineer",
+  "industry": "Telecom",
+  "overall_difficulty": "Medium",
+  "question_style": "Technical",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "company": "Caterpillar",
+  "short_name": "Caterpillar",
+  "role": "Engineer",
+  "industry": "Core Engineering",
+  "overall_difficulty": "Medium",
+  "question_style": "Technical",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

@@ -1,0 +1,80 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "online_assessment": {
+    "total_rounds": 1,
+    "platform": "Amazon Online Assessment Platform",
+    "total_duration_minutes": 120,
+
+    "sections": [
+      {
+        "name": "Coding",
+        "questions": 2,
+        "duration_minutes": 70,
+        "difficulty": "Medium-Hard",
+        "topics": [
+          "Arrays",
+          "Strings",
+          "Hash Maps",
+          "Trees",
+          "Graphs",
+          "Dynamic Programming"
+        ]
+      },
+      {
+        "name": "Quantitative Aptitude",
+        "questions": 8,
+        "duration_minutes": 20,
+        "difficulty": "Medium",
+        "topics": [
+          "Probability",
+          "Data Interpretation",
+          "Percentages",
+          "Ratio and Proportion",
+          "Time and Work"
+        ]
+      },
+      {
+        "name": "Logical Reasoning",
+        "questions": 6,
+        "duration_minutes": 15,
+        "difficulty": "Medium",
+        "topics": [
+          "Logical Puzzles",
+          "Data Sufficiency",
+          "Analytical Reasoning",
+          "Seating Arrangement"
+        ]
+      },
+      {
+        "name": "Verbal Ability",
+        "questions": 3,
+        "duration_minutes": 15,
+        "difficulty": "Medium",
+        "topics": [
+          "Reading Comprehension",
+          "Grammar",
+          "Vocabulary"
+        ]
+      }
+    ],
+
+    "passing_criteria": {
+      "coding_required": true,
+      "overall_performance": true,
+      "negative_marking": false,
+      "sectional_cutoff": false
+    },
+
+    "evaluation": {
+      "correctness": true,
+      "time_complexity": true,
+      "space_complexity": true,
+      "hidden_test_cases": true,
+      "code_quality": true
+    },
+
+    "next_round": "Technical Interview"
+  }
+}

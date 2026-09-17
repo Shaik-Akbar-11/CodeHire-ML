@@ -1,0 +1,10 @@
+{
+  "company": "Ericsson",
+  "short_name": "Ericsson",
+  "role": "Network Engineer",
+  "industry": "Telecom",
+  "overall_difficulty": "Medium",
+  "question_style": "Technical",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

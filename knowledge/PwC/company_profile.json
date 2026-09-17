@@ -1,0 +1,10 @@
+{
+  "company": "PricewaterhouseCoopers",
+  "short_name": "PwC",
+  "role": "Associate",
+  "industry": "Consulting",
+  "overall_difficulty": "Medium",
+  "question_style": "Case Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

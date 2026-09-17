@@ -1,0 +1,38 @@
+{
+  "Amazon": {
+    "expectedDifficulty": "Medium-High with emphasis on problem solving and algorithmic efficiency.",
+    "questionStyle": "Direct, data-driven prompts with clear constraints and performance focus.",
+    "topicDistribution": "Balanced coverage of arrays, strings, dynamic programming, graphs, and systems reasoning.",
+    "languageStyle": "Concise, precise, and technically oriented with minimal narrative.",
+    "reasoningStyle": "Analytical and optimization-focused, with attention to edge cases and time complexity.",
+    "codingStyle": "Emphasize clean, modular solutions and efficient use of data structures.",
+    "realWorldContext": "Generic engineering or operations scenarios rather than company-specific products.",
+    "expectedOutputFormat": "Clear numeric result or structured answer; code outputs in standard formats when applicable.",
+
+    "questionTone": "Professional",
+    "avoidTopics": [
+      "Company confidential information",
+      "Brand-specific facts",
+      "Trivia"
+    ],
+
+    "mustInclude": [
+      "Clear constraints",
+      "Exactly four options for MCQs",
+      "One correct answer",
+      "Detailed explanation"
+    ],
+
+    "difficultyWeights": {
+      "Easy": 20,
+      "Medium": 50,
+      "Hard": 30
+    },
+
+    "preferredComplexity": {
+      "Easy": "O(n)",
+      "Medium": "O(n log n)",
+      "Hard": "Optimal"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "company": "Axis Bank",
+  "short_name": "Axis",
+  "role": "IT Officer",
+  "industry": "BFSI",
+  "overall_difficulty": "Easy-Medium",
+  "question_style": "Practical",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

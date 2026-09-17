@@ -1,0 +1,35 @@
+{
+  "hallucinationPreventionRules": [
+    "Never invent facts, formulas, APIs, or programming language behavior.",
+    "Use only mathematically and logically valid statements.",
+    "Reject questions that rely on assumptions not stated in the prompt."
+  ],
+
+  "edgeCaseRules": [
+    "Validate all boundary conditions.",
+    "Avoid division by zero.",
+    "Avoid impossible input combinations.",
+    "Ensure at least one valid solution exists."
+  ],
+
+  "codingSpecificRules": [
+    "Prefer optimal algorithms whenever possible.",
+    "Mention constraints clearly.",
+    "Include sample input and output.",
+    "Ensure hidden test cases cover edge cases."
+  ],
+
+  "datasetIntegrityRules": [
+    "Every generated question must have a unique UUID.",
+    "Record generation timestamp.",
+    "Record AI model version.",
+    "Record validation status."
+  ],
+
+  "reviewerRules": [
+    "Reject any question with a mathematical error.",
+    "Reject any question with multiple correct answers.",
+    "Reject any question with grammatical mistakes.",
+    "Reject any question with duplicate structure."
+  ]
+}

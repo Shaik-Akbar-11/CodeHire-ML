@@ -1,0 +1,10 @@
+{
+  "company": "McKinsey and Company",
+  "short_name": "McKinsey",
+  "role": "Business Analyst",
+  "industry": "Consulting",
+  "overall_difficulty": "Hard",
+  "question_style": "Case Based",
+  "calculator_allowed": true,
+  "version": "1.0"
+}

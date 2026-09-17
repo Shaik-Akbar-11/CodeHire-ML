@@ -1,0 +1,10 @@
+{
+  "company": "Urban Company",
+  "short_name": "Urban Company",
+  "role": "Software Engineer",
+  "industry": "Startup",
+  "overall_difficulty": "Medium",
+  "question_style": "Scenario Based",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

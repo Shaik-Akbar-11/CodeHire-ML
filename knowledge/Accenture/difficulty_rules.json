@@ -1,0 +1,62 @@
+{
+  "Easy": {
+    "expectedThinkingLevel": "Basic comprehension and direct application of a single concept.",
+    "averageSolvingTime": 90,
+    "formulaUsage": "One simple formula or definition is sufficient.",
+    "reasoningDepth": "Low; primarily one-step reasoning with minimal interpretation.",
+    "calculationComplexity": "Simple arithmetic, basic algebra, or direct evaluation.",
+    "logicalComplexity": "Straightforward relationships with no nested conditions.",
+    "readingComplexity": "Clear and concise prompt language; few clauses.",
+    "numberOfSteps": 1,
+    "commonMistakes": [
+      "minor arithmetic slips",
+      "misreading a single condition",
+      "ignoring a simple constraint"
+    ],
+    "difficultyIndicators": [
+      "single concept",
+      "direct question phrasing",
+      "explicit numeric values"
+    ]
+  },
+  "Medium": {
+    "expectedThinkingLevel": "Application and analysis of two related concepts or a multi-step procedure.",
+    "averageSolvingTime": 120,
+    "formulaUsage": "Requires combining two formulas or applying a formula with reasoning.",
+    "reasoningDepth": "Moderate; may involve interpretation, comparison, or sequential logic.",
+    "calculationComplexity": "Moderate arithmetic with potential intermediate results.",
+    "logicalComplexity": "Conditional reasoning or multi-part relationships with a single branch.",
+    "readingComplexity": "Moderately detailed prompt with clear structure and defined constraints.",
+    "numberOfSteps": 2,
+    "commonMistakes": [
+      "partial computation errors",
+      "incorrect formula selection",
+      "misordering steps"
+    ],
+    "difficultyIndicators": [
+      "multiple related concepts",
+      "intermediate reasoning",
+      "explicit constraint handling"
+    ]
+  },
+  "Hard": {
+    "expectedThinkingLevel": "Analytical synthesis, evaluation, or multi-step reasoning across several concepts.",
+    "averageSolvingTime": 150,
+    "formulaUsage": "Involves multiple formulas, nested calculations, or nontrivial derivation.",
+    "reasoningDepth": "High; often requires critical interpretation and selection among alternatives.",
+    "calculationComplexity": "Complex arithmetic, multi-stage algebra, or multi-component evaluation.",
+    "logicalComplexity": "Nested conditions, multi-part dependencies, or reasoning under constraints.",
+    "readingComplexity": "Detailed prompt with multiple clauses and precise condition statements.",
+    "numberOfSteps": 3,
+    "commonMistakes": [
+      "overlooking a constraint",
+      "incorrect simplification of nested logic",
+      "misapplying formula combinations"
+    ],
+    "difficultyIndicators": [
+      "multiple reasoning layers",
+      "nontrivial conceptual combination",
+      "higher cognitive demand"
+    ]
+  }
+}

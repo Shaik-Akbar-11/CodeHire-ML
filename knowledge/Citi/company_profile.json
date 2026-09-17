@@ -1,0 +1,10 @@
+{
+  "company": "Citibank",
+  "short_name": "Citi",
+  "role": "Analyst",
+  "industry": "BFSI",
+  "overall_difficulty": "Medium-Hard",
+  "question_style": "Analytical",
+  "calculator_allowed": false,
+  "version": "1.0"
+}

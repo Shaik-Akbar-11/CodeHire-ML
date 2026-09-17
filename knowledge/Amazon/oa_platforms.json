@@ -1,0 +1,59 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "platform": {
+    "name": "Amazon Online Assessment Platform",
+    "type": "Web Based",
+    "proctoring": true,
+    "camera_required": false,
+    "microphone_required": false,
+    "fullscreen_required": true,
+    "internet_required": true
+  },
+
+  "coding_environment": {
+    "online_ide": true,
+    "supported_languages": [
+      "Java",
+      "C++",
+      "Python",
+      "C",
+      "JavaScript"
+    ],
+    "custom_input": true,
+    "compile_and_run": true,
+    "auto_save": true,
+    "syntax_highlighting": true
+  },
+
+  "assessment_features": {
+    "timer": true,
+    "section_timer": false,
+    "question_navigation": true,
+    "mark_for_review": false,
+    "calculator": false,
+    "copy_paste_allowed": false
+  },
+
+  "submission": {
+    "auto_submit_on_timeout": true,
+    "multiple_submissions": false,
+    "save_progress": true
+  },
+
+  "evaluation": {
+    "hidden_test_cases": true,
+    "sample_test_cases": true,
+    "time_complexity_evaluated": true,
+    "memory_limit_enforced": true,
+    "partial_scoring": false
+  },
+
+  "security": {
+    "tab_switch_detection": true,
+    "browser_restrictions": true,
+    "screen_recording_detection": false,
+    "plagiarism_detection": true
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "generalQuestionWritingRules": [
+    "Use clear, concise language with precise terminology appropriate for a professional assessment.",
+    "Frame each prompt as a standalone problem that does not require external reference material.",
+    "Ensure questions are unambiguous and contain only the information needed to solve the problem.",
+    "Avoid cultural, regional, or proprietary references that could bias learners from diverse backgrounds.",
+    "Use consistent formatting for variables, units, and expressions across the entire question set."
+  ],
+  "mcqConstructionRules": [
+    "Each MCQ must have exactly one correct option and three or four plausible distractors.",
+    "Keep all option lengths comparable and avoid revealing the correct answer by pattern.",
+    "Include only one valid answer that directly follows from the question prompt.",
+    "Use clear option labels and avoid overly complex language in answer choices.",
+    "Order options logically where applicable, such as ascending numeric values or alphabetical order."
+  ],
+  "distractorDesignRules": [
+    "Design distractors to reflect common mistakes or misconceptions related to the concept.",
+    "Avoid distractors that are clearly unrelated or implausible given the prompt.",
+    "Keep incorrect options numerically and conceptually close to the correct answer when relevant.",
+    "Avoid duplicate distractor answers or repeated structures within the same MCQ.",
+    "Ensure distractors do not introduce new unstated assumptions or extra conditions."
+  ],
+  "correctAnswerValidationRules": [
+    "Validate that the correct answer is consistent with the question prompt and any stated constraints.",
+    "Confirm the correct answer is unique and not equivalent to any distractor under permitted transformations.",
+    "For numeric answers, verify unit consistency and precision expectations.",
+    "For coding and algorithm prompts, ensure the answer follows the required output format and language constraints.",
+    "Verify that the correct answer is appropriate for the declared difficulty level."
+  ],
+  "explanationWritingRules": [
+    "Write explanations as logical step-by-step reasoning, not just a final result statement.",
+    "Include the key concept or formula used to arrive at the correct answer.",
+    "Avoid introducing new problems or additional questions in the explanation.",
+    "Keep explanations concise yet complete enough for review and validation purposes.",
+    "Ensure explanations reflect the intended difficulty and do not contradict the problem text."
+  ],
+  "difficultyRules": [
+    "Match question complexity and required reasoning with the declared difficulty band.",
+    "Use straightforward calculations and one concept for Easy items.",
+    "Use multiple reasoning steps or combined concepts for Medium items.",
+    "Reserve Hard items for multi-step problems with nontrivial analysis and edge-case handling.",
+    "Avoid inflated difficulty by adding irrelevant information or unnecessarily complex wording."
+  ],
+  "calculationRules": [
+    "Keep numeric values within reasonable ranges for the targeted topic and question type.",
+    "Avoid overly large or unwieldy numbers unless the topic specifically requires them.",
+    "Ensure any arithmetic is solvable within the expected time and difficulty parameters.",
+    "Use integer values when possible, and specify decimal precision if required.",
+    "Present calculations in a way that supports both manual reasoning and programmatic evaluation."
+  ],
+  "languageRules": [
+    "Use professional, assessment-grade English with consistent grammar and punctuation.",
+    "Avoid idioms, slang, or culturally specific expressions.",
+    "Use active voice and direct statements for clarity.",
+    "Avoid ambiguous pronouns or vague references to unspecified entities.",
+    "Normalize units, labels, and variable names across similar questions."
+  ],
+  "logicalConsistencyRules": [
+    "Verify that all values, conditions, and dependencies within the question are internally consistent.",
+    "Do not include contradictory constraints or impossible scenarios.",
+    "Confirm that any referenced variables are defined exactly once and used consistently.",
+    "Ensure the problem statement, options, and answer validation all align with the same model of the situation.",
+    "Check that any implied assumptions are stated explicitly or are universally understood by the target audience."
+  ],
+  "uniquenessRules": [
+    "Generate each question template with distinct problem structure and context.",
+    "Avoid reusing the same variable values or scenario templates across multiple questions without meaningful variation.",
+    "Label generated items with unique identifiers or internal tags for tracking.",
+    "Ensure that each question tests a discrete concept or combination of concepts.",
+    "Avoid parallel questions that differ only in superficial wording."
+  ],
+  "antiDuplicationRules": [
+    "Compare new questions against the existing bank using topic, structure, and key parameters.",
+    "Reject items that duplicate the same underlying concept with only cosmetic wording changes.",
+    "Use semantic similarity and keyword matching to detect near-duplicate prompts.",
+    "Enforce a minimum diversity threshold across generated items for each topic and difficulty band.",
+    "Record duplicates and near-duplicates for review rather than allowing them into the active pool."
+  ],
+  "realWorldScenarioRules": [
+    "Use realistic contexts where appropriate, but do not invent proprietary company-specific settings.",
+    "Prefer generic business, engineering, or scientific settings for reasoning problems.",
+    "Keep scenario details relevant to the tested concept and avoid unnecessary narrative.",
+    "Ensure that any real-world examples do not rely on knowledge outside the target domain.",
+    "Balance domain-specific realism with clear question focus and solvability."
+  ],
+  "qualityAssuranceRules": [
+    "Subject every generated item to automated grammar, math, and consistency checks.",
+    "Include a review pass to verify difficulty, topic alignment, and option quality.",
+    "Flag items with ambiguous wording or insufficient information for manual review.",
+    "Maintain audit trails for rule failures and corrections.",
+    "Use performance metrics from pilot runs to refine generation parameters."
+  ],
+  "expectedSolvingTimeRules": [
+    "Estimate solving time based on topic complexity, number of steps, and difficulty band.",
+    "Set Easy items to require short, direct reasoning within the target time budget.",
+    "Allocate more time for Medium items that combine two or more concepts.",
+    "Reserve the highest time budgets for Hard items with multi-step analysis.",
+    "Validate that time estimates are consistent with the problem structure and category conventions."
+  ],
+  "questionLengthRules": [
+    "Keep prompts concise while preserving all required information.",
+    "Avoid overly verbose introductions or irrelevant background details.",
+    "Use single paragraphs for most problem statements, with line breaks only when needed for clarity.",
+    "Enforce maximum length thresholds for each question type to support readability.",
+    "Ensure that the length of the statement scales appropriately with difficulty."
+  ],
+  "optionLengthRules": [
+    "Keep MCQ options roughly the same length to avoid giving away the correct answer.",
+    "Avoid excessively long or multi-clause options unless required by the concept.",
+    "Use simple phrasing and consistent formatting across choices.",
+    "Present numeric options in a standard form with consistent precision.",
+    "Ensure each option is independently plausible within the context of the prompt."
+  ],
+  "numericalValueGenerationRules": [
+    "Generate numeric values that fit the topic and difficulty, avoiding extremes unless justified.",
+    "Use integer ranges for basic problems and controlled decimals for advanced problems.",
+    "Ensure generated values do not create impossible or degenerate cases.",
+    "Avoid values that require unnecessary conversion or obscure unit handling.",
+    "Include variability across generated items to prevent pattern recognition."
+  ],
+  "randomizationRules": [
+    "Randomize variable names, numeric values, and scenario details within defined safe ranges.",
+    "Preserve the underlying problem structure while varying surface-level elements.",
+    "Keep randomized fields consistent with the stated constraints and difficulty band.",
+    "Avoid excessive randomization that changes the intended concept being assessed.",
+    "Use seeded randomness for reproducibility during testing and evaluation."
+  ],
+  "bloomsTaxonomyMapping": [
+    "Map Easy items to Remember and Understand cognitive levels.",
+    "Map Medium items to Apply and Analyze cognitive levels.",
+    "Map Hard items to Evaluate and Create cognitive levels where appropriate.",
+    "Use Bloom levels to guide question formulation and explanation structure.",
+    "Ensure cognitive level mapping aligns with the topic and reasoning demands."
+  ],
+  "learningObjectiveMapping": [
+    "Assign each template to one or more learning objectives such as concept mastery, calculation fluency, or analytical reasoning.",
+    "Use learning objectives to tag questions for adaptive sequencing and remediation.",
+    "Align generated problems with targeted skill outcomes for each topic.",
+    "Keep learning objectives explicit so they can be used by AI and analytics engines.",
+    "Use objective mapping to balance practice sets across foundational and advanced abilities."
+  ],
+  "questionComplexityRules": [
+    "Control complexity through concept count, step count, and nested conditions.",
+    "Keep Easy questions limited to a single primary concept and straightforward computation.",
+    "Allow Medium questions to combine two concepts or require a small amount of inference.",
+    "Design Hard questions with multiple reasoning layers, conditional logic, or nontrivial abstraction.",
+    "Ensure complexity grows with difficulty without becoming opaque or unfocused."
+  ],
+  "companyStyleAdaptationRules": [
+    "Adjust language tone to match the target company while preserving neutrality and professionalism.",
+    "Prefer concise and technical wording for companies known for efficiency and algorithmic focus.",
+    "Use slightly broader scenario framing for companies with diverse role expectations.",
+    "Keep company-specific prompts free of proprietary product references or internal jargon.",
+    "Ensure all adaptations remain consistent with the universal quality and difficulty rules."
+  ]
+}

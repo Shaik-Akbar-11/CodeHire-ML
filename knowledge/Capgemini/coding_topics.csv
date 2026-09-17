@@ -1,0 +1,19 @@
+topic,priority,difficulty,weight
+Arrays,Very High,Easy-Medium,10
+Strings,Very High,Easy-Medium,10
+Searching,Very High,Easy,10
+Sorting,Very High,Easy-Medium,10
+Functions,High,Easy,9
+Loops,High,Easy,9
+Recursion,Medium,Medium,7
+Linked List,Medium,Medium,7
+Stack,Medium,Medium,6
+Queue,Medium,Medium,6
+Trees,Medium,Medium,6
+Binary Search,Medium,Medium,7
+Hashing,Medium,Medium,6
+Object Oriented Programming,High,Medium,8
+Basic SQL,High,Easy-Medium,8
+DBMS Basics,High,Easy-Medium,8
+Debugging,Medium,Medium,7
+Pseudo Code,High,Medium,8

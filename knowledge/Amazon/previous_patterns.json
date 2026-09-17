@@ -1,0 +1,133 @@
+{
+  "company": "Amazon",
+  "version": "1.0",
+
+  "patterns": [
+    {
+      "year": 2022,
+      "online_assessment": {
+        "coding_questions": 2,
+        "aptitude": true,
+        "logical_reasoning": true,
+        "verbal": true
+      },
+      "coding_focus": [
+        "Arrays",
+        "Strings",
+        "Hash Maps",
+        "Sorting"
+      ],
+      "difficulty": "Medium",
+      "interview_focus": [
+        "Data Structures",
+        "Operating Systems",
+        "DBMS",
+        "Leadership Principles"
+      ]
+    },
+
+    {
+      "year": 2023,
+      "online_assessment": {
+        "coding_questions": 2,
+        "aptitude": true,
+        "logical_reasoning": true,
+        "verbal": true
+      },
+      "coding_focus": [
+        "Sliding Window",
+        "Trees",
+        "Binary Search",
+        "Graphs"
+      ],
+      "difficulty": "Medium-Hard",
+      "interview_focus": [
+        "DSA",
+        "Projects",
+        "Leadership Principles",
+        "Computer Networks"
+      ]
+    },
+
+    {
+      "year": 2024,
+      "online_assessment": {
+        "coding_questions": 2,
+        "aptitude": true,
+        "logical_reasoning": true,
+        "verbal": true
+      },
+      "coding_focus": [
+        "Graphs",
+        "Dynamic Programming",
+        "Trees",
+        "Greedy Algorithms"
+      ],
+      "difficulty": "Medium-Hard",
+      "interview_focus": [
+        "Problem Solving",
+        "System Design Fundamentals",
+        "Leadership Principles",
+        "Project Discussion"
+      ]
+    },
+
+    {
+      "year": 2025,
+      "online_assessment": {
+        "coding_questions": 2,
+        "aptitude": true,
+        "logical_reasoning": true,
+        "verbal": true
+      },
+      "coding_focus": [
+        "Graphs",
+        "Dynamic Programming",
+        "Sliding Window",
+        "Heap"
+      ],
+      "difficulty": "Medium-Hard",
+      "interview_focus": [
+        "Optimization",
+        "Clean Code",
+        "Leadership Principles",
+        "Behavioral Questions"
+      ]
+    },
+
+    {
+      "year": 2026,
+      "online_assessment": {
+        "coding_questions": 2,
+        "aptitude": true,
+        "logical_reasoning": true,
+        "verbal": true
+      },
+      "coding_focus": [
+        "Graphs",
+        "Trees",
+        "Dynamic Programming",
+        "Hash Maps",
+        "Sliding Window"
+      ],
+      "difficulty": "Medium-Hard",
+      "interview_focus": [
+        "Problem Solving",
+        "Project Deep Dive",
+        "Leadership Principles",
+        "Code Optimization"
+      ]
+    }
+  ],
+
+  "overall_trends": {
+    "coding_difficulty": "Increasing",
+    "behavioral_importance": "Increasing",
+    "leadership_principles": "Highly Important",
+    "optimization_focus": "High",
+    "graph_questions": "Increasing",
+    "dynamic_programming": "Frequently Asked",
+    "project_discussions": "More Common",
+    "system_design": "Occasional for Experienced Candidates"
+  }
+}

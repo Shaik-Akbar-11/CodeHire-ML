@@ -1,0 +1,102 @@
+{
+  "Amazon": {
+    "expectedDifficulty": "Medium-High with emphasis on problem solving and algorithmic efficiency.",
+    "questionStyle": "Direct, data-driven prompts with clear constraints and performance focus.",
+    "topicDistribution": "Balanced coverage of arrays, strings, dynamic programming, graphs, and systems reasoning.",
+    "languageStyle": "Concise, precise, and technically oriented with minimal narrative.",
+    "reasoningStyle": "Analytical and optimization-focused, with attention to edge cases and time complexity.",
+    "codingStyle": "Emphasize clean, modular solutions and efficient use of data structures.",
+    "realWorldContext": "Generic engineering or operations scenarios rather than company-specific products.",
+    "expectedOutputFormat": "Clear numeric result or structured answer; code outputs in standard formats when applicable."
+  },
+  "Microsoft": {
+    "expectedDifficulty": "Medium to Hard with focus on design correctness and system thinking.",
+    "questionStyle": "Well-defined problems that emphasize clarity and engineering tradeoffs.",
+    "topicDistribution": "Algorithms, data structures, logic, and conceptual design with balanced verbal reasoning.",
+    "languageStyle": "Professional and accessible with consistent technical vocabulary.",
+    "reasoningStyle": "Structured reasoning with emphasis on robustness and maintainability.",
+    "codingStyle": "Encourage clear function boundaries, readable code, and testable logic.",
+    "realWorldContext": "Generic software engineering scenarios applicable to enterprise-scale solutions.",
+    "expectedOutputFormat": "Explicit answers or code outputs with specified return types and formats."
+  },
+  "Google": {
+    "expectedDifficulty": "High, with emphasis on conceptual clarity and algorithmic creativity.",
+    "questionStyle": "Abstract yet precise prompts that reward elegant and efficient solutions.",
+    "topicDistribution": "Strong focus on graphs, trees, dynamic programming, and reasoning under constraints.",
+    "languageStyle": "Precise and unambiguous, with minimal storytelling.",
+    "reasoningStyle": "Deep analytical reasoning with attention to correctness and optimality.",
+    "codingStyle": "Favor succinct, high-performance implementations with clear complexity analysis.",
+    "realWorldContext": "Minimal; emphasize abstract problem solving over domain-specific context.",
+    "expectedOutputFormat": "Standardized numeric or string results, and code outputs matching explicit requirements."
+  },
+  "TCS": {
+    "expectedDifficulty": "Medium with practical reasoning and application-focused questions.",
+    "questionStyle": "Scenario-based and logic-driven prompts with clear instructions.",
+    "topicDistribution": "Aptitude, logical reasoning, and verbal ability balanced with introductory coding topics.",
+    "languageStyle": "Formal and approachable with clear step-by-step expectations.",
+    "reasoningStyle": "Practical and methodical, oriented to business and numeric reasoning.",
+    "codingStyle": "Emphasize correctness and simple, readable implementations.",
+    "realWorldContext": "Generic enterprise or business scenarios suited to broad applicant pools.",
+    "expectedOutputFormat": "Definitive numeric answers or concise code output descriptions."
+  },
+  "Infosys": {
+    "expectedDifficulty": "Medium with emphasis on foundational reasoning and accuracy.",
+    "questionStyle": "Clear, structured prompts that test core quantitative and logical skills.",
+    "topicDistribution": "A balanced mix of aptitude, reasoning, verbal, and coding fundamentals.",
+    "languageStyle": "Straightforward and formal, with easy-to-follow wording.",
+    "reasoningStyle": "Stepwise and interpretive, favoring correctness over optimization.",
+    "codingStyle": "Encourage correct logic and simple implementations suitable for entry-level coding.",
+    "realWorldContext": "Generic workplace or technical contexts that support broad comprehension.",
+    "expectedOutputFormat": "Numeric or categorical answers with explicit result formatting."
+  },
+  "Zoho": {
+    "expectedDifficulty": "Medium with attention to problem-solving and accurate analysis.",
+    "questionStyle": "Practical and objective prompts with clear constraints.",
+    "topicDistribution": "Aptitude and logical reasoning with coding basics and verbal comprehension.",
+    "languageStyle": "Precise and professional with a focus on clarity.",
+    "reasoningStyle": "Analytical and detail-oriented, with a preference for straightforward logic.",
+    "codingStyle": "Encourage readable, maintainable code with correct output behavior.",
+    "realWorldContext": "Simple technical or business scenarios that reinforce core concepts.",
+    "expectedOutputFormat": "Definitive results or structured code outputs as specified."
+  },
+  "Accenture": {
+    "expectedDifficulty": "Medium-High with emphasis on analytical thinking and solution design.",
+    "questionStyle": "Clear, business-aligned prompts with a technical reasoning focus.",
+    "topicDistribution": "A mix of quantitative reasoning, logic, verbal analysis, and coding fundamentals.",
+    "languageStyle": "Professional and polished, with attention to precise instruction.",
+    "reasoningStyle": "Consultative and structured, with emphasis on approach and result accuracy.",
+    "codingStyle": "Favor clear, maintainable code and practical design decisions.",
+    "realWorldContext": "Generic business or IT-related scenarios suitable for consulting and technology roles.",
+    "expectedOutputFormat": "Clear answer statements or code outputs matching the prompt requirements."
+  },
+  "Deloitte": {
+    "expectedDifficulty": "Medium with emphasis on analytical reasoning and professional judgment.",
+    "questionStyle": "Structured prompts that emphasize logical interpretation and business context.",
+    "topicDistribution": "Balanced coverage of reasoning, quantitative analysis, and technical fundamentals.",
+    "languageStyle": "Formal and concise with an emphasis on clarity.",
+    "reasoningStyle": "Analytical and methodical, with emphasis on sound justification.",
+    "codingStyle": "Encourage clear logic and compliance with stated requirements.",
+    "realWorldContext": "Generic business analytics or operational scenarios rather than proprietary references.",
+    "expectedOutputFormat": "Explicit numeric or narrative answers according to the question type."
+  },
+  "Capgemini": {
+    "expectedDifficulty": "Medium with practical logic and coding fundamentals.",
+    "questionStyle": "Clear and objective prompts with a focus on accurate reasoning.",
+    "topicDistribution": "A blend of aptitude, logical reasoning, verbal, and basic coding topics.",
+    "languageStyle": "Simple, formal, and easy to understand.",
+    "reasoningStyle": "Logical and stepwise, with emphasis on correct interpretation.",
+    "codingStyle": "Favor straightforward implementations and functional correctness.",
+    "realWorldContext": "Generic enterprise or technical contexts that support broad candidate evaluation.",
+    "expectedOutputFormat": "Concise results or code outputs as required."
+  },
+  "Cognizant": {
+    "expectedDifficulty": "Medium with emphasis on reasoning accuracy and problem-solving.",
+    "questionStyle": "Structured prompts that test analytical aptitude and technical fundamentals.",
+    "topicDistribution": "A balanced distribution across aptitude, reasoning, verbal, and coding areas.",
+    "languageStyle": "Professional and precise with direct wording.",
+    "reasoningStyle": "Clear, methodical reasoning that emphasizes correctness.",
+    "codingStyle": "Encourage readable code and logically complete solutions.",
+    "realWorldContext": "Generic business-technology scenarios appropriate to consulting and delivery roles.",
+    "expectedOutputFormat": "Definitive answers or output descriptions that are easy to evaluate."
+  }
+}

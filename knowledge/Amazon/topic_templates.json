@@ -1,0 +1,36 @@
+{
+  "formulae": [
+    "Relevant mathematical or algorithmic formulas"
+  ],
+
+  "commonMistakes": [
+    "Typical errors candidates make"
+  ],
+
+  "learningObjectives": [
+    "Concepts being tested"
+  ],
+
+  "bloomsLevel": {
+    "Easy": "Remember",
+    "Medium": "Apply",
+    "Hard": "Analyze"
+  },
+
+  "estimatedTime": {
+    "Easy": 1,
+    "Medium": 2,
+    "Hard": 5
+  },
+
+  "questionTypes": [
+    "MCQ",
+    "Scenario",
+    "Numerical"
+  ],
+
+  "prerequisites": [
+    "Basic arithmetic",
+    "Probability concepts"
+  ]
+}
