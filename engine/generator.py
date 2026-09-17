@@ -13,13 +13,16 @@ log = logging.getLogger(__name__)
 
 class Generator:
 
-    def __init__(self):
-
+    def __init__(self, mock: bool = False):
+        self.mock = mock or (os.getenv("MOCK_MODE", "").lower() in ("1", "true", "yes"))
         api_key = os.getenv("GROQ_API_KEY")
-        if not api_key:
-            raise ValueError("GROQ_API_KEY not found in environment.")
+        if not api_key and not self.mock:
+            raise ValueError(
+                "GROQ_API_KEY not found in environment.\n"
+                "Please add your GROQ_API_KEY to .env or pass --mock to run in offline test mode."
+            )
 
-        self.client      = Groq(api_key=api_key)
+        self.client      = Groq(api_key=api_key) if api_key else None
         self.model            = "llama-3.3-70b-versatile"
         self.max_retries      = 8
         self.temperature      = 0.7
@@ -64,8 +67,69 @@ class Generator:
     # Core generate — returns raw string
     # --------------------------------------------------
 
+    def _mock_generate(self, prompt: str) -> str:
+        if "You are a STRICT Senior Assessment Reviewer" in prompt or "QUESTION TO REVIEW:" in prompt:
+            return json.dumps({
+                "accepted": True,
+                "overall_score": 95,
+                "checks": {
+                    "mathematics_correct": True,
+                    "answer_correct": True,
+                    "explanation_correct": True,
+                    "single_correct_answer": True,
+                    "topic_match": True,
+                    "grammar_correct": True
+                },
+                "errors": []
+            })
+
+        import re
+        company_m = re.search(r"Company\s*:\s*(.+)", prompt)
+        role_m = re.search(r"Role\s*:\s*(.+)", prompt)
+        section_m = re.search(r"Section\s*:\s*(.+)", prompt)
+        topic_m = re.search(r"Topic\s*:\s*(.+)", prompt)
+        diff_m = re.search(r"Difficulty\s*:\s*(.+)", prompt)
+
+        company = company_m.group(1).strip() if company_m else "TCS"
+        role = role_m.group(1).strip() if role_m else "Assistant System Engineer"
+        section = section_m.group(1).strip() if section_m else "Quantitative Aptitude"
+        topic = topic_m.group(1).strip() if topic_m else "Percentages"
+        diff = diff_m.group(1).strip() if diff_m else "Easy-Medium"
+
+        valid_sections = {
+            "quantitative": "Quantitative Aptitude",
+            "logical": "Logical Reasoning",
+            "verbal": "Verbal Ability",
+            "coding": "Coding"
+        }
+        for k, v in valid_sections.items():
+            if k in section.lower():
+                section = v
+                break
+
+        return json.dumps({
+            "company": company,
+            "role": role,
+            "section": section,
+            "topic": topic,
+            "difficulty": diff,
+            "question": f"A project module for {company} requires calculating total bandwidth. If 40% of the total capacity equals 180 Mbps and 20 Mbps is reserved for system tasks, what is the total bandwidth?",
+            "options": {
+                "A": "400 Mbps",
+                "B": "450 Mbps",
+                "C": "500 Mbps",
+                "D": "550 Mbps"
+            },
+            "answer": "B",
+            "explanation": f"Given 40% of Total = 180 Mbps. Therefore Total = (180 / 40) * 100 = 450 Mbps."
+        })
+
     def generate(self, prompt: str, max_tokens: int = None) -> str:
         self.stats["generated"] += 1
+
+        if self.mock:
+            self.stats["success"] += 1
+            return self._mock_generate(prompt)
 
         system_prompt = (
             "You are a Senior Placement Assessment Architect.\n"

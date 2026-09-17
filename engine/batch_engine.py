@@ -84,7 +84,8 @@ class BatchEngine:
                 continue
 
             # --- Pause before reviewer to avoid back-to-back 429s ---
-            time.sleep(REVIEW_DELAY)
+            delay = 0.05 if getattr(self.generator, "mock", False) else REVIEW_DELAY
+            time.sleep(delay)
 
             # --- Review ---
             try:
@@ -152,7 +153,8 @@ class BatchEngine:
             if log_fn:
                 log_fn(company, section_name, topic, total, target)
 
-            time.sleep(POST_SAVE_DELAY)
+            save_delay = 0.05 if getattr(self.generator, "mock", False) else POST_SAVE_DELAY
+            time.sleep(save_delay)
 
         return saved
 

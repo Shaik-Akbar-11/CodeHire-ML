@@ -20,8 +20,8 @@ class Reviewer:
         "grammar_correct",
     ]
 
-    def __init__(self):
-        self.generator      = Generator()
+    def __init__(self, generator=None):
+        self.generator      = generator or Generator()
         self.total_reviewed = 0
         self.total_accepted = 0
         self.total_rejected = 0

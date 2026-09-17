@@ -283,21 +283,30 @@ def main():
                         help="Topic filter (partial match)")
     parser.add_argument("--target",   type=int,  default=DEFAULT_TARGET_PER_TOPIC,
                         help=f"Questions per topic (default: {DEFAULT_TARGET_PER_TOPIC})")
+    parser.add_argument("--mock",     action="store_true",
+                        help="Run in mock/offline mode for testing without an API key")
     args = parser.parse_args()
 
     companies = [args.company] if args.company else ALL_COMPANIES
 
+    is_mock = args.mock or not os.getenv("GROQ_API_KEY")
+    if not os.getenv("GROQ_API_KEY") and not args.mock:
+        print("\n[INFO] GROQ_API_KEY not detected in .env or environment.")
+        print("Running in test mode (mock LLM).")
+        print("To generate real questions, add GROQ_API_KEY to your .env file.\n")
+        is_mock = True
+
     print("\n" + "=" * 70)
-    print("  CODEHIRING AI DATASET ENGINE  [BATCH MODE]")
+    print(f"  CODEHIRING AI DATASET ENGINE  [{'MOCK MODE' if is_mock else 'LIVE BATCH MODE'}]")
     print(f"  Companies      : {len(companies)}")
     print(f"  Per topic      : {args.target} questions")
     print(f"  Section filter : {args.section or 'All'}")
     print(f"  Topic filter   : {args.topic or 'All'}")
     print("=" * 70)
 
-    generator    = Generator()
+    generator    = Generator(mock=is_mock)
     validator    = Validator()
-    reviewer     = Reviewer()
+    reviewer     = Reviewer(generator=generator)
     batch_engine = BatchEngine(generator, validator, reviewer)
 
     grand_total = 0
